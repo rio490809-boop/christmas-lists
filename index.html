@@ -6,7 +6,7 @@
   <title>Christmas List</title>
   <style>
     body {
-      background: linear-gradient(135deg, #f9f9f9, #ececec);
+      background: linear-gradient(135deg, #fef6f6, #e8f8e8);
       font-family: "Poppins", sans-serif;
       color: #333;
       text-align: center;
@@ -17,12 +17,12 @@
     header {
       position: sticky;
       top: 0;
-      background-color: #ffffff;
-      color: #2c2c2c;
+      background: linear-gradient(90deg, #c62828, #388e3c);
+      color: #fff;
       padding: 25px 0;
       font-size: 1.8em;
       font-weight: 600;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
       z-index: 10;
     }
 
@@ -36,27 +36,30 @@
       border-radius: 10px;
       font-size: 0.9em;
       font-weight: 600;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      box-shadow: 0 0 5px rgba(0,0,0,0.15);
     }
 
     main {
       margin: 60px auto;
       max-width: 600px;
-      background: #fff;
+      background: #ffffff;
       border-radius: 20px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
       padding: 40px 30px;
       transition: all 0.3s ease;
     }
 
     main:hover {
       transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
     }
 
     h2 {
       color: #2c2c2c;
       margin-bottom: 25px;
+      border-bottom: 2px solid #c62828;
+      display: inline-block;
+      padding-bottom: 5px;
     }
 
     ul {
@@ -75,46 +78,47 @@
     }
 
     a {
-      color: #333;
+      color: #2e7d32;
       text-decoration: none;
       font-weight: 500;
       transition: color 0.2s;
     }
 
     a:hover {
-      color: #000;
+      color: #c62828;
       text-decoration: underline;
     }
 
     button {
-      background: #f2f2f2;
-      color: #333;
-      border: 1px solid #ddd;
+      background: #c62828;
+      color: #fff;
+      border: none;
       border-radius: 10px;
       padding: 6px 14px;
       cursor: pointer;
       transition: all 0.2s;
+      font-weight: 500;
     }
 
     button:hover {
-      background: #e6e6e6;
+      background: #d32f2f;
       transform: scale(1.05);
     }
 
     footer {
       margin-top: 40px;
       font-size: 0.9em;
-      color: #777;
+      color: #555;
     }
 
     footer a {
-      color: #555;
+      color: #388e3c;
       text-decoration: none;
       transition: color 0.2s;
     }
 
     footer a:hover {
-      color: #000;
+      color: #c62828;
       text-decoration: underline;
     }
 
@@ -124,79 +128,78 @@
       top: 50%;
       left: 15px;
       transform: translateY(-50%);
-      background: #333;
+      background: linear-gradient(135deg, #388e3c, #2e7d32);
       color: white;
       border: none;
       padding: 10px 18px;
       border-radius: 10px;
       cursor: pointer;
       font-size: 1em;
-      box-shadow: 0 0 8px rgba(0,0,0,0.25);
+      box-shadow: 0 0 8px rgba(0,0,0,0.3);
       transition: 0.2s;
     }
 
     #deskBtn:hover {
-      background: #555;
+      background: linear-gradient(135deg, #43a047, #388e3c);
       transform: translateY(-50%) scale(1.05);
     }
   </style>
 </head>
 <body>
   <header>
-    Christmas
+    🎄 Christmas 🎁
     <div id="countdown"></div>
   </header>
 
   <button id="deskBtn" onclick="window.open('Desk.html', '_blank')">🛠 Desk Build</button>
 
   <main>
-    <h2>list</h2>
+    <h2>Wishlist</h2>
     <ul>
       <li>
         <a href="https://mykeybrd.com/products/cloud-black-deskmat-1" target="_blank">Mousepad</a>
         <button>Add</button>
       </li>
-		<li>
-        <a href="https://www.amazon.co.uk/LEKATO-Adapter-Type-Interface-Converter-Instruments/dp/B08J466SZD/ref=sr_1_26?sr=8-26" target="_blank">Midi cable</a>
-        <button>Add</button>
-      </li>
-		<li>
-        <a href="https://www.amazon.co.uk/Focusrite-Scarlett-Solo-Audio-Interface/dp/B07QR6Z1JB/ref=sr_1_6?sr=8-6" target="_blank">Midi Interface</a>
+      <li>
+        <a href="https://www.amazon.co.uk/LEKATO-Adapter-Type-Interface-Converter-Instruments/dp/B08J466SZD/ref=sr_1_26?sr=8-26" target="_blank">MIDI Cable</a>
         <button>Add</button>
       </li>
       <li>
-        <a href="https://www.amazon.co.uk/ProtoArc-EC100-Ergonomic-Office-Chair/dp/B0DRY26DQK/ref=sxin_15_pa_sp_search_thematic_sspa?cv_ct_cx=ergonomic%2Bchair&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-3-ad3222ed-9545-4dc8-8dd8-6b2cb5278509-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM" target="_blank">comfy chair</a>
+        <a href="https://www.amazon.co.uk/Focusrite-Scarlett-Solo-Audio-Interface/dp/B07QR6Z1JB/ref=sr_1_6?sr=8-6" target="_blank">MIDI Interface</a>
         <button>Add</button>
       </li>
       <li>
-        <a href="https://www.amazon.co.uk/Under-Cable-Management-Drill-Organizers/dp/B0DCFNSVDN/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY" target="_blank">cable rack</a>
-        <button>Add</button>
-      </li>
-      <!-- Add more items below -->
-      <li>
-        <a href="https://cleens.co.uk/products/pulse-runner-graphite?variant=46645701279984" target="_blank">shoes</a>
+        <a href="https://www.amazon.co.uk/ProtoArc-EC100-Ergonomic-Office-Chair/dp/B0DRY26DQK" target="_blank">Comfy Chair</a>
         <button>Add</button>
       </li>
       <li>
-        <a href="https://www.image-line.com/fl-studio/buy-now/" target="_blank">Fl studio Producer edition</a>
+        <a href="https://www.amazon.co.uk/Under-Cable-Management-Drill-Organizers/dp/B0DCFNSVDN" target="_blank">Cable Rack</a>
         <button>Add</button>
       </li>
-	<li>
+      <li>
+        <a href="https://cleens.co.uk/products/pulse-runner-graphite?variant=46645701279984" target="_blank">Shoes</a>
+        <button>Add</button>
+      </li>
+      <li>
+        <a href="https://www.image-line.com/fl-studio/buy-now/" target="_blank">FL Studio Producer Edition</a>
+        <button>Add</button>
+      </li>
+      <li>
         <a href="https://www.amazon.co.uk/dp/B0C6QYR9GQ?ref=emc_s_m_5_i_atc&th=1">Digital Piano</a>
         <button>Add</button>
       </li>
-	<li>
-        <a href="https://www.amazon.co.uk/Suptek-Single-Monitor-Adjustable-Spring/dp/B0833NQ8CR/ref=sr_1_3_sspa?sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY" target="_blank">Monitor arm</a>
+      <li>
+        <a href="https://www.amazon.co.uk/Suptek-Single-Monitor-Adjustable-Spring/dp/B0833NQ8CR" target="_blank">Monitor Arm</a>
         <button>Add</button>
       </li>
-	<li>
-        <a href="https://www.amazon.co.uk/AOC-24G15N-Adaptive-1920x1080-DisplayPort/dp/B0CXY2RZK7/ref=sr_1_4?sr=8-4" target="_blank">2nd Monitor</a>
+      <li>
+        <a href="https://www.amazon.co.uk/AOC-24G15N-Adaptive-1920x1080-DisplayPort/dp/B0CXY2RZK7" target="_blank">2nd Monitor</a>
         <button>Add</button>
       </li>
     </ul>
   </main>
 
-  <footer>😎</footer>
+  <footer>🎅 Made with holiday spirit ❄️</footer>
 
   <script>
     function updateCountdown() {
@@ -213,7 +216,7 @@
       if (diff > 0) {
         el.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
       } else {
-        el.textContent = "Christmas";
+        el.textContent = "🎄 Merry Christmas!";
       }
     }
 
@@ -222,19 +225,3 @@
   </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
